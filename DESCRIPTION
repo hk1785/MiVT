@@ -1,0 +1,12 @@
+Package: MiVT
+Title: Microbiome Virtual Twins
+Version: 1.0
+Date: 2022-02-01
+Author: Hyunwook Koh
+Maintainer: Hyunwook Koh <hyunwook.koh@stonybrook.edu>
+Description: This R package provides facilities for MiVT that predicts treatment effects using dML, and then identifies subgroups by treatment effects based on microbiome composition using BoRT to evaluate the interplay between microbiome and treatment. 
+NeedsCompilation: no
+Depends: R(>= 4.0.1), cluster, compositions, dirmult, glmnet, GUniFrac, ecodist, neuralnet, phangorn, phyloseq, proxy, randomForest, rpart, rpart.plot, splitTools, zCompositions
+License: GPL-2
+NeedsCompilation: no
+URL: https://github.com/hk1785/MiVT
