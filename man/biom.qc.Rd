@@ -7,7 +7,7 @@ Quality Controls and Data Transformation
 This function performs quality controls and data transformations that are needed for MiVT.
 }
 \usage{
-biom.qc(biom, kingdom = "Bacteria", lib.size.cut.off = 1000, mean.prop.cut.off = 1e-05, rem.tax.com = c("", "gut metagenome", "mouse gut metagenome", "metagenome", "NANANA"), rem.tax.par = c("uncultured", "incertae", "Incertae", "unclassified", "unidentified", "unknown"))
+biom.qc(biom, kingdom = "Bacteria", lib.size.cut.off = 1000, mean.prop.cut.off = 0, rem.tax.com = c("", "gut metagenome", "mouse gut metagenome", "metagenome", "NANANA"), rem.tax.par = c("uncultured", "incertae", "Incertae", "unclassified", "unidentified", "unknown"))
 }
 
 \arguments{
@@ -21,7 +21,7 @@ A microbial kingdom to be analyzed, such as 'Bacteria', 'Archaea', 'Eukaryota' o
 A minimum total read count for subjects to keep in the microbiome data (Default: 1000).
 }
   \item{mean.prop.cut.off}{
-A minimum mean proportion for microbial features (OTUs or ASVs) to keep in the microbiome data (Default: 1e-05).
+A minimum mean proportion for microbial features (OTUs or ASVs) to keep in the microbiome data (Default: 0).
 }
   \item{rem.tax.com}{
 Remove taxonomic names in the taxonomic table that are completely matched with the specified character strings (Default: c("", "gut metagenome", "mouse gut metagenome", "metagenome", "NANANA")).

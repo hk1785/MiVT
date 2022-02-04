@@ -4,7 +4,7 @@ Title: Microbiome Virtual Twins
 
 Version: 1.0
 
-Date: 2022-01-30
+Date: 2022-02-05
 
 Author: Hyunwook Koh
 
@@ -112,14 +112,14 @@ This function performs quality controls and data transformations that are needed
 
 ### Usage
 ```
-biom.qc(biom = biom, kingdom = "Bacteria", lib.size.cut.off = 1000, mean.prop.cut.off = 1e-05, rem.tax.com = c("", "gut metagenome", "mouse gut metagenome", "metagenome", "NANANA"), rem.tax.par = c("uncultured", "incertae", "Incertae", "unclassified", "unidentified", "unknown"))
+biom.qc(biom = biom, kingdom = "Bacteria", lib.size.cut.off = 1000, mean.prop.cut.off = 0, rem.tax.com = c("", "gut metagenome", "mouse gut metagenome", "metagenome", "NANANA"), rem.tax.par = c("uncultured", "incertae", "Incertae", "unclassified", "unidentified", "unknown"))
 ```
 
 ### Arguments
 * _biom_ - A microbiome data in the phyloseq format. sample_data(biom) should contain two binary variables: y (response) and Tr (treatment). See the example data using gen.syn.dat().
 * _kingdom_ - A microbial kingdom to be analyzed, such as 'Bacteria', 'Archaea', 'Eukaryota' or 'all'. 'all' is for all kingdoms in the taxonomic table (Default: 'Bacteria').
 * _lib.size.cut.off_ - A minimum total read count for subjects to keep in the microbiome data (Default: 1000).
-* _mean.prop.cut.off_ - A minimum mean proportion for microbial features (OTUs or ASVs) to keep in the microbiome data (Default: 1e-05).
+* _mean.prop.cut.off_ - A minimum mean proportion for microbial features (OTUs or ASVs) to keep in the microbiome data (Default: 0).
 * _rem.tax.com_ - Remove taxonomic names in the taxonomic table that are completely matched with the specified character strings (Default: c("", "gut metagenome", "mouse gut metagenome", "metagenome", "NANANA")).
 * _rem.tax.par_ - Remove taxonomic names in the taxonomic table that are partially matched with the specified character strings (Default: c("uncultured", "incertae", "Incertae", "unclassified", "unidentified", "unknown")).
 

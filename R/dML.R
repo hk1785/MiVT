@@ -1,7 +1,7 @@
 dML <-
 function(y, Tr, X, tree, n.folds = 10, n.rep = 2, 
                       alpha = seq(0.05, 0.95, 0.05), n.trees = 1000, n.neus = c(1/2, 1/3, 1/4), 
-                      interac = TRUE, multi.rarefy = 10, n.seed = 123) {
+                      interac = TRUE, multi.rarefy = 1, n.seed = 123) {
   
   set.seed(n.seed)
   

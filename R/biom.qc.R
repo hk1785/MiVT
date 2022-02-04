@@ -1,5 +1,5 @@
 biom.qc <-
-function(biom = biom, kingdom = "Bacteria", lib.size.cut.off = 1000, mean.prop.cut.off = 1e-05, 
+function(biom = biom, kingdom = "Bacteria", lib.size.cut.off = 1000, mean.prop.cut.off = 0, 
                     rem.tax.com = c("", "gut metagenome", "mouse gut metagenome", "metagenome", "NANANA"),
                     rem.tax.par = c("uncultured", "incertae", "Incertae", "unclassified", "unidentified", "unknown")) {
   

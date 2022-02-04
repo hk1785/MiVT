@@ -1,5 +1,1 @@
 export("biom.clean", "biom.qc", "boot.test", "BoRT", "dML", "gen.syn.dat", "otu.tab.clean", "rarefy.func", "tax.tab.clean", "tax.trans")
-
-
-
-
