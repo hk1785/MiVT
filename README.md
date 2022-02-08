@@ -36,7 +36,14 @@ Rtools
 ```
 https://cran.r-project.org/bin/windows/Rtools/rtools40.html
 ```
-cluster, compositions, devtools, dirmult, glmnet, GUniFrac, ecodist, neuralnet, phangorn, phyloseq, proxy, randomForest, rpart, rpart.plot, splitTools, zCompositions
+phyloseq
+```
+https://joey711.github.io/phyloseq/
+```
+cluster, compositions, devtools, dirmult, glmnet, GUniFrac, ecodist, neuralnet, phangorn, proxy, randomForest, rpart, rpart.plot, splitTools, zCompositions
+```
+install.packages(c("cluster", "compositions", "devtools", "dirmult", "glmnet", "GUniFrac", "ecodist", "nuralnet", "phangorn", "proxy", "randomForest", "rpart", "rpart.plot", "splitTools", "zCompositions"))
+```
 
 ## Installation
 
