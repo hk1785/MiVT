@@ -5,6 +5,7 @@ function(y, Tr, X, tree, n.folds = 10, n.rep = 2,
   
   set.seed(n.seed)
   
+  X <- as.data.frame(X)
   X <- t(X)
   n <- nrow(X)
   
