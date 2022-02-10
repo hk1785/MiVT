@@ -55,7 +55,7 @@ install_github("hk1785/MiVT", force=T)
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 # Manual
-This R package contains three core functions, gen.syn.dat, biom.qc, dML and BoRT. Details are below.
+This R package <MiVT> contains four core functions, gen.syn.dat, biom.qc, dML and BoRT. Details are below.
 
 ## :mag: gen.syn.dat
 
