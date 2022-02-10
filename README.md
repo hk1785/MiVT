@@ -57,7 +57,7 @@ install_github("hk1785/MiVT", force=T)
 # Manual
 This R package contains three core functions, gen.syn.dat, biom.qc, dML and BoRT. Please find the details below.
 
-## :mag: gen.syn.dat
+## <summary>gen.syn.dat</summary>
 
 ### Description
 This function generates example microbiome data.
