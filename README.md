@@ -1,4 +1,4 @@
-# R package: MiVT
+# MiVT
 
 Title: Microbiome Virtual Twins
 
