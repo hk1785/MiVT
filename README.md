@@ -24,7 +24,7 @@ URL: https://github.com/hk1785/MiVT
 
 ## Reference
 
-* Koh, H. Subgroup identification using virtual twins for human microbiome studies. *_Under review_*
+* Koh, H. Subgroup identification using virtual twins for human microbiome studies with applications to cancer immunotherapy. *_Under review_*
 
 ## Troubleshooting Tips
 
@@ -142,7 +142,7 @@ $sam.dat: A metadata/sample information where rows are subjects and columns are 
 $tree: A rooted phylogenetic tree.
 
 ### References
-* Koh, H. Subgroup identification using virtual twins for human microbiome studies. *_Under review_*
+* Koh, H. Subgroup identification using virtual twins for human microbiome studies with applications to cancer immunotherapy. *_Under review_*
 
 ### Example
 Import requisite R packages
@@ -215,7 +215,7 @@ $out.dfn$Z: Predicted treatment effects using the deep feedforward network.
 $Z: Predicted treatment effects using dML.
 
 ### References
-* Koh, H. Subgroup identification using virtual twins for human microbiome studies. *_Under review_*
+* Koh, H. Subgroup identification using virtual twins for human microbiome studies with applications to cancer immunotherapy. *_Under review_*
 
 * Foster, J. C., Taylor, J. M. & Ruberg, S. J. Subgroup identification from randomized clinical trial data. *_Stat. Med._* 30(24), 2867-2880 (2011).
 
@@ -286,7 +286,7 @@ $BoRT.out: The output table of BoRT. Columns are the identified subgroups that c
 
 
 ### References
-* Koh, H. Subgroup identification using virtual twins for human microbiome studies. *_Under review_*
+* Koh, H. Subgroup identification using virtual twins for human microbiome studies with applications to cancer immunotherapy. *_Under review_*
 
 * Foster, J. C., Taylor, J. M. & Ruberg, S. J. Subgroup identification from randomized clinical trial data. *_Stat. Med._* 30(24), 2867-2880 (2011).
 
